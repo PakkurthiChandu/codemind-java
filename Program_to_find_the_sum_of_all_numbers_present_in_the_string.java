@@ -8,7 +8,8 @@ class Codemind
         int sum=0;
         for(int i=0;i<a.length();i++)
         {
-            if(a.charAt(i)>='0' && a.charAt(i)<='9')
+            char ch=a.charAt(i);
+            if(ch>='0' && ch<='9')
             {
                 sum+=(int)a.charAt(i)-'0';
             }
