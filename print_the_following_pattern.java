@@ -5,11 +5,11 @@ class Codemind
     {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt(),i,j;
-        for(i=1;i<=a;i++)
+        for(i=a;i>=1;i--)
         {
             for(j=1;j<=i;j++)
             {
-                System.out.printf("%d",j);
+                System.out.printf("%c ",64+i);
             }
             System.out.println();
         }
